@@ -1,0 +1,24 @@
+.bg{
+    background-image:url("/assets/img.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card {
+    border: none;
+    width: 250px;
+    padding:40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgb(75, 17, 70);
+    background: linear-gradient(90deg,rgb(94, 20, 89)0%,rgb(118, 36, 121)100%);
+  }
+  .card h1{
+      color:white;
+  }
+  label{
+      color:white;
+  }
